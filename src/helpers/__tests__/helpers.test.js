@@ -51,5 +51,9 @@ describe('personMaker', () => {
       });
   });
 
-  // write more tests! <===========================================
+  it (`returns null if fed no arguments`, () =>{
+    expect(helpers.personMaker()).toBe(null);
+  });
+
+  
 });
